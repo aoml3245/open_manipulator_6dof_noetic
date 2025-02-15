@@ -1,7 +1,7 @@
 ﻿<launch>
   <arg name="use_robot_name"         default="open_manipulator_6dof"/>
 
-  <arg name="dynamixel_usb_port"     default="/dev/ttyUSB1"/>
+  <arg name="dynamixel_usb_port"     default="/dev/ttyACM0"/>
   <arg name="dynamixel_baud_rate"    default="1000000"/>
 
   <arg name="control_period"         default="0.010"/>
